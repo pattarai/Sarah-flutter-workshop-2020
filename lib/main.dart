@@ -86,7 +86,7 @@ class _Stack extends State<Stack> {
     List<Widget> elementsToReturn = [];
     stack.reversed.forEach((element) {
       elementsToReturn.add(Text(element.toString()));
-    });
+    });git
     return elementsToReturn;
   }
 }
